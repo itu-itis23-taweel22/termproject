@@ -21,7 +21,7 @@ p{
 }
 
 .background-images{
-    background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url(/about-me/images/first-background.jpg);
+    background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url(images/first-background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
@@ -102,7 +102,7 @@ p{
 
 }
 .project{
-    background-image: url("/about-me/images/mirashop.jpg");
+    background-image: url("images/mirashop.jpg");
     height: 250px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ p{
     display: none;
 }
 .project:hover{
-    background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url("/about-me/images/mirashop.jpg");
+    background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url("images/mirashop.jpg");
 
 }
 .project:hover h3{
@@ -143,23 +143,23 @@ p{
 
 }
 .anime-kingdom{
-    background-image: url("/about-me/images/animekingdom.jpeg");
+    background-image: url("images/animekingdom.jpeg");
 }
 .anime-kingdom:hover{
     background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url("animekingdom.jpeg");
 }
 .to-do-it{
-    background-image: url("/about-me/images/todoit.png");
+    background-image: url("images/todoit.png");
 }
 .to-do-it:hover{
     background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url("todoit.png");
 }
 .memory-game{
-    background-image: url("/about-me/images/memorygame.jpg");
+    background-image: url("images/memorygame.jpg");
  
 }
 .memory-game:hover{
-    background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url("/about-me/images/memorygame.jpg");
+    background-image: linear-gradient(to right, rgba(0, 26, 255, 0.45), rgba(0, 26, 255, 0.45)), url("images/memorygame.jpg");
 }
 .education{
     position: relative;
