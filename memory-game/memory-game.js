@@ -56,7 +56,10 @@ function checkImage(image){
             answer += image.getAttribute('value')
             image.style.visibility = "visible"
             image.style.backgroundColor = ""
-            score.innerText = `Score: ${parseInt(answer.length *100/6)}`    
+            score.innerText = `Score: ${parseInt(answer.length *100/6)}`
+            if(answer.length *100/6==100){
+                resetButton.style.display = "inline"
+            }    
         }else{
             gameOver.style.visibility = "visible"
             resetButton.style.display = "inline"
