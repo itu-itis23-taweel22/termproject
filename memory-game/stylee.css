@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(161, 215, 240, 0.45), rgba(161, 215, 240, 0.45));
+}
+div {
+    display: inline;
+
+}
+#images-container img{
+    height: 10vh;
+    width: 5vw;
+
+}
+button{
+    width: 5vw;
+    height: 2vh;
+    text-align: center;
+    background-color: gray;
+    color: navy;
+}
+
+p{
+    margin-top:5px;
+    color: navy;
+}
+.game-container{
+    display: grid;
+    width: 37vw;
+    height: 10vh;
+    grid-template-columns: 32vw 5vw;
+}
+h1{
+    color:navy;
+}
+
