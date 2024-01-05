@@ -39,8 +39,8 @@ p{
 .about-me{
     text-align: center;
     align-items: center;
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .my-image{
     border-radius: 50%;
@@ -62,9 +62,6 @@ p{
     left: 50%;
     transform: translate(-50%,0%);
     grid-template-columns: 1fr 1fr;
-    padding-left: 50px;
-    padding-right:50px ;
-   
 }
 .skills{
     padding: 0px 25px;
@@ -170,8 +167,8 @@ p{
     left: 50%;
     transform: translate(-50%,0%);
     max-width: 900px;
-    padding-left: 15vw;
-    padding-right:15vw ;
+    padding-left: 100px;
+    padding-right:100px ;
 }
 .education p{
     font-size: 1.5em;
@@ -232,8 +229,8 @@ p{
     }
     .about-me p{
         max-width: 600px;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .skills-container{
         grid-template-columns: 1fr;
@@ -262,8 +259,8 @@ p{
     }
     .education{
         max-width: 600px;
-        padding-right: 10vw;
-        padding-left: 10vw;
+        padding-right: 50px;
+        padding-left: 50px;
     }
    
     .course-title{
@@ -323,8 +320,8 @@ p{
     }
     .education{
         max-width: 500px;
-        padding-right: 5vw;
-        padding-left: 5vw;
+        padding-right: 25px;
+        padding-left: 25px;
     }
     .education p{
         font-size: 1em;
@@ -333,8 +330,8 @@ p{
         grid-template-columns: 1fr;
     }
     .about-me{
-        padding-left: 5vw;
-        padding-right: 5vw;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .my-image{
         width: 150px;
