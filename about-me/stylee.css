@@ -54,6 +54,7 @@ p{
     left: 50%;
     transform: translate(-50%,0%);
     max-width: 1140px;
+    text-align:justify ;
 }
 .skills-container{
     position: relative;
@@ -262,6 +263,9 @@ p{
         padding-right: 50px;
         padding-left: 50px;
     }
+    .education p{
+        text-align:justify ;
+    }
    
     .course-title{
         font-weight: 800;
@@ -270,7 +274,7 @@ p{
         margin-bottom: 40px;
     }
     
-    contact-container h1{
+    .contact-container h1{
         font-size: 2em;
     }
     .contact-container p{
