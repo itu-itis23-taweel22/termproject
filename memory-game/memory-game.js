@@ -3,6 +3,8 @@ let answer=""
 const resetButton = document.getElementById('reset');
 const score = document.getElementById('score');
 let gameOver = document.getElementById('game-over');
+const winMessage = document.getElementById('win-message')
+winMessage.style.visibility='hidden'
 gameOver.style.visibility = "hidden"
 resetButton.style.display="none"
 let src = [ "letters/t-letter.svg", "letters/a-letter.svg","letters/w-letter.svg", "letters/e-letter.svg","letters/e-letter.svg", "letters/l-letter.svg" ]
@@ -21,7 +23,6 @@ resetButton.addEventListener('click',reset)
 
 function randomizeImages (){
     for(let i = 0; i < 1000 ; i++){
-        
         const firstRandomNumber = parseInt( Math.random() * src.length )
         const secondRandomNumber = parseInt( Math.random() * src.length )
         const firstChangedSrc = src[firstRandomNumber]
@@ -34,10 +35,11 @@ function randomizeImages (){
 }
 function startGame(){
     randomizeImages()
+    winMessage.style.visibility='hidden'
+    start.style = 'display:none;'
+    resetButton.style.display = "none"
+    gameOver.style.visibility = "hidden"
     for(let i = 0; i < src.length; i++){
-        start.style = 'display:none;'
-        resetButton.style.display = "none"
-        gameOver.style.visibility = "hidden"
         lettersImages[i].src = src[i]
         lettersImages[i].setAttribute('value',valuesofImages[i])
         setTimeout(
@@ -59,6 +61,7 @@ function checkImage(image){
             score.innerText = `Score: ${parseInt(answer.length *100/6)}`
             if(answer.length *100/6==100){
                 resetButton.style.display = "inline"
+                winMessage.style.visibility='visible'
             }    
         }else{
             gameOver.style.visibility = "visible"
