@@ -320,8 +320,8 @@ p{
     }
     .education{
         max-width: 500px;
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .education p{
         font-size: 1em;
@@ -330,8 +330,8 @@ p{
         grid-template-columns: 1fr;
     }
     .about-me{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .my-image{
         width: 150px;
