@@ -39,6 +39,8 @@ p{
 .about-me{
     text-align: center;
     align-items: center;
+    padding-right: 15vw;
+    padding-left: 15vw;
 }
 .my-image{
     border-radius: 50%;
@@ -51,7 +53,6 @@ p{
     position: relative;
     left: 50%;
     transform: translate(-50%,0%);
-    font-size: 2em;
     max-width: 1140px;
 }
 .skills-container{
@@ -61,6 +62,9 @@ p{
     left: 50%;
     transform: translate(-50%,0%);
     grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right:50px ;
+   
 }
 .skills{
     padding: 0px 25px;
@@ -71,11 +75,11 @@ p{
     top: 50%;
     margin: 0;
     display: inline;
-    font-size: 1.5em; 
+    font-size: 1.25em; 
 }
 .skill-rate{
     display: inline;
-    font-size: 1.75em;
+    font-size: 1.5em;
     float: right;
 
 }
@@ -166,6 +170,8 @@ p{
     left: 50%;
     transform: translate(-50%,0%);
     max-width: 900px;
+    padding-left: 15vw;
+    padding-right:15vw ;
 }
 .education p{
     font-size: 1.5em;
@@ -216,16 +222,18 @@ p{
 }
 @media screen and (max-width: 992px) {
     h1{
-        font-size: 3.5em;
-    }
-    h2{
         font-size: 3em;
     }
+    h2{
+        font-size: 2em;
+    }
     p{
-        font-size: 2m;
+        font-size: 1.5em;
     }
     .about-me p{
         max-width: 600px;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .skills-container{
         grid-template-columns: 1fr;
@@ -254,6 +262,8 @@ p{
     }
     .education{
         max-width: 600px;
+        padding-right: 10vw;
+        padding-left: 10vw;
     }
    
     .course-title{
@@ -272,17 +282,23 @@ p{
     .contact-container h4{
         font-size: 1.25em;
     }
+    .my-image{
+        width: 200px;
+        height: 200px;
+    }
+   
+       
     
   }
 @media screen and (max-width: 600px) {
     h1{
-        font-size: 3em;
-    }
-    h2{
         font-size: 2em;
     }
-    p{
+    h2{
         font-size: 1.5em;
+    }
+    p{
+        font-size: 1em;
     }
     .about-me p{
         max-width: 500px;
@@ -307,11 +323,21 @@ p{
     }
     .education{
         max-width: 500px;
+        padding-right: 5vw;
+        padding-left: 5vw;
     }
     .education p{
-        font-size: 1.25em;
+        font-size: 1em;
     }
     .contact-container{
         grid-template-columns: 1fr;
+    }
+    .about-me{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .my-image{
+        width: 150px;
+        height: 150px;
     }
   }
