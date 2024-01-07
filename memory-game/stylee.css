@@ -27,7 +27,6 @@ p{
 }
 .game-container{
     display: grid;
-    width: 37vw;
     height: 10vh;
     grid-template-columns: 32vw 150px;
 }
