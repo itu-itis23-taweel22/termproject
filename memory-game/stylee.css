@@ -29,7 +29,7 @@ p{
     display: grid;
     width: 37vw;
     height: 10vh;
-    grid-template-columns: 32vw 5vw;
+    grid-template-columns: 32vw 150px;
 }
 h1{
     color:navy;
